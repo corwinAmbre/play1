@@ -1,0 +1,13 @@
+# Default play1-mailgun messages
+# You can specialize this file for each language.
+# For exemple, for french create a messages.fr file
+
+#play1-mailgun.name=play1-mailgun
+
+
+mailgun.response.success=Everything worked as expected
+mailgun.response.badrequest=Bad Request - Often missing a required parameter
+mailgun.response.unauthorized=No valid API key provided
+mailgun.response.fail=Request Failed - Parameters were valid but request failed
+mailgun.response.notfound=The requested item doesn’t exist
+mailgun.response.servererror=Server Errors - something is wrong on Mailgun’s end

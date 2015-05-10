@@ -1,0 +1,12 @@
+# Application dependencies
+
+require:
+    - play
+    - play1-mailgun -> play1-mailgun latest.integration
+
+repositories:
+    - My modules:
+        type:       local
+        artifact:   ${application.path}/../[module]
+        contains:
+            - play1-mailgun

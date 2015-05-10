@@ -1,0 +1,4 @@
+self: play -> play1-mailgun 0.1
+
+require:
+    - play
